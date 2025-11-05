@@ -1,6 +1,6 @@
 # assembly-emulator
 
-## The emulating simple assembly architecture in calculator.
+The emulating simple assembly architecture in calculator.
 
 ### Register File
 
