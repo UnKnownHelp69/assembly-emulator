@@ -13,7 +13,7 @@ The processor contains four 8-bit registers:
 | C        | 10       |
 | D        | 11       |
 
-## Instruction Set Architecture
+### Instruction Set Architecture
 
 | Instruction | Description | Binary Encoding |
 |-------------|-------------|-----------------|
@@ -25,7 +25,7 @@ The processor contains four 8-bit registers:
 | `IN R`      | Read input to register R | `110000RR` |
 | `OUT R`     | Write register R to output | `110001RR` |
 
-### Encoding Notes:
+### NB:
 - `!` represents immediate value bits
 - `R` represents register selection bits (2 bits per register)
 - Instructions using two registers encode both register selections in the `RRRR` field
