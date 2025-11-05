@@ -1,9 +1,8 @@
 # assembly-emulator
 
-The emulating simple assembly architecture in calculator.
-# Processor Architecture Specification
+## The emulating simple assembly architecture in calculator.
 
-## Register File
+### Register File
 
 The processor contains four 8-bit registers:
 
