@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// global input array cause we need to free it from functions if error
+// Global input array cause we need to free it from functions if error
 int *input = NULL;
 
 // All registers
