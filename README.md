@@ -13,19 +13,14 @@ The processor contains four 8-bit registers:
 | C        | 10       |
 | D        | 11       |
 
-### Instruction Set Architecture
+### Instructions
 
 | Instruction | Description | Binary Encoding |
 |-------------|-------------|-----------------|
 | `MOVI Imm`  | Move immediate value to register D | `0!!!!!!!` |
-| `ADD R, R`  | Add two registers (modulo 256) | `1000RRRR` |
-| `SUB R, R`  | Subtract two registers (modulo 256) | `1001RRRR` |
-| `MUL R, R`  | Multiply two registers (modulo 256) | `1010RRRR` |
-| `DIV R, R`  | Divide two registers (modulo 256) | `1011RRRR` |
+| `ADD R, R`  | Add two registers | `1000RRRR` |
+| `SUB R, R`  | Subtract two registers | `1001RRRR` |
+| `MUL R, R`  | Multiply two registers | `1010RRRR` |
+| `DIV R, R`  | Divide two register | `1011RRRR` |
 | `IN R`      | Read input to register R | `110000RR` |
 | `OUT R`     | Write register R to output | `110001RR` |
-
-### NB:
-- `!` represents immediate value bits
-- `R` represents register selection bits (2 bits per register)
-- Instructions using two registers encode both register selections in the `RRRR` field
